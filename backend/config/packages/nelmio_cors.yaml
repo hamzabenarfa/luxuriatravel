@@ -1,0 +1,14 @@
+nelmio_cors:
+    defaults:
+        allow_credentials: true
+        allow_origin: ['*']
+        allow_headers: ['*']
+        allow_methods: ['*']
+        expose_headers: ['Content-Type', 'X-Custom-Header', 'Access-Control-Allow-Origin']
+    paths:
+        '^/api/':
+            allow_origin: ['*']
+            allow_headers: ['*']
+            allow_methods: ['*']
+            expose_headers: ['Content-Type', 'X-Custom-Header', 'Access-Control-Allow-Origin']
+            max_age: 3600
