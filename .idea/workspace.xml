@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4caecd-3109-47dd-b523-c7d97bcbfee0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/symfony.lock" afterDir="false" />
-    </list>
+    <list default="true" id="dc4caecd-3109-47dd-b523-c7d97bcbfee0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +195,7 @@
       <workItem from="1681821603992" duration="1039000" />
       <workItem from="1681916313195" duration="5084000" />
       <workItem from="1682183938915" duration="594000" />
-      <workItem from="1682514475664" duration="6221000" />
+      <workItem from="1682514475664" duration="6883000" />
     </task>
     <servers />
   </component>
