@@ -9,11 +9,13 @@ use Symfony\Component\HttpFoundation\Request;
 
 use App\Entity\User;
 
+
+
 #[Route('/api')]
 class UserController extends AbstractController
 {
     #[Route('/user', name: 'app_user',methods:['GET'])]
-    public function index(ManagerRegistry $doctrine): Response
+    public function affUser(ManagerRegistry $doctrine): Response
     {
         $user = $doctrine->getRepository(User::class)->findAll();
 

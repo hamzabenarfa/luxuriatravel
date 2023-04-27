@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4caecd-3109-47dd-b523-c7d97bcbfee0" name="Changes" comment="" />
+    <list default="true" id="dc4caecd-3109-47dd-b523-c7d97bcbfee0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/nelmio_cors.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/packages/nelmio_cors.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useFetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home/Home.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,6 +193,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hamza\OneDrive\Desktop\luxuriavoyage\backend\templates" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -195,7 +209,8 @@
       <workItem from="1681821603992" duration="1039000" />
       <workItem from="1681916313195" duration="5084000" />
       <workItem from="1682183938915" duration="594000" />
-      <workItem from="1682514475664" duration="6883000" />
+      <workItem from="1682514475664" duration="10643000" />
+      <workItem from="1682531926180" duration="7896000" />
     </task>
     <servers />
   </component>
