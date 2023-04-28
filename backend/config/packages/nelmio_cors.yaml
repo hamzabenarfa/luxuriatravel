@@ -7,7 +7,7 @@ nelmio_cors:
         expose_headers: ['Content-Type', 'X-Custom-Header', 'Access-Control-Allow-Origin']
     paths:
         '^/api/':
-            allow_origin: ['localhost:3000/']
+            allow_origin: ['http://localhost:3000']
             allow_headers: ['X-Requested-With', 'Content-Type', 'Authorization']
             allow_methods: ['*']
             expose_headers: ['Content-Type', 'X-Custom-Header', 'Access-Control-Allow-Origin']
