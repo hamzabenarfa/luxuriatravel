@@ -2,14 +2,14 @@ import './App.css';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import Login from "./pages/Login/Login";
-const Layout = () => {
+  const Layout = () => {
   return (
     <div className="app">
       <Navbar />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
@@ -21,6 +21,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path:"/login", element: <Login /> },
+
     ],
   },
 ]);
@@ -29,7 +30,7 @@ function App() {
   return (
     <div className="App">
         <RouterProvider router={router} />
-
+       
       
     </div>
   );

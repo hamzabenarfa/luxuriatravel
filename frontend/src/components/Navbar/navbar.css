@@ -43,13 +43,13 @@
     height: max-content;
     width: 80%;
     border-radius: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     padding: 1rem;
     transform: translateX(-50%);
     z-index: 2000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: 0.3s ease-in-out;
+    transition: 0.1s ease-in-out;
   }
   .header .activeNavbar {
     top: 7rem;
@@ -78,6 +78,15 @@
   .header .navLists .btn .Link {
     font-weight: 600;
     color: var(--whiteColor);
+  }
+  .header .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: var(--PrimaryColor);
+  }
+  .header .closeNavbar:hover {
+    color: var(--SecondaryColor);
   }
 }
 .header .toggleNavbar .icon {
