@@ -26,7 +26,7 @@ function Main() {
             <img src={item.imgSrc} alt={"image de : "+item.destTitle} />
         </div>
         <div className="cardInfo">
-            <h4 className="destTItle">{item.destTitle}</h4>
+            <h4 className="destTitle">{item.destTitle}</h4>
             <span className="content flex">
                 <HiOutlineLocationMarker className="icon" />
                 <span className="name">{item.location}</span>
@@ -34,12 +34,14 @@ function Main() {
 
             <div className="fee flex">
                 <div className="grade">
-                    <span>Price :<small></small></span>
+                    <span>Price :</span>
                 </div>
                 <div className="price">
                     <h5>{item.fees}</h5>
                 </div>
             </div>
+
+
             <div className="desc">
                 <p>{item.description}</p>
             </div>

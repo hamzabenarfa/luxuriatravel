@@ -10,6 +10,7 @@
   --inputColor: rgb(239, 239, 239);
   --bodyColor: rgb(240, 240, 246);
   --cardBG: rgb(255, 255, 235);
+  --cardHover:rgb(255, 255, 255);
 }
 
 .main {
@@ -41,10 +42,55 @@
   height: 100%;
   display: grid;
   row-gap: 10px;
-  padding: 1rem;
   border-radius: 10px;
   align-items: center;
   background: var(--cardBG);
   box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
   overflow: hidden;
+}
+.main .secContent .singleDestination:hover {
+  background: var(--cardHover);
+  box-shadow: 1 4px 4px rgba(85, 85, 141, 0.549);
+  transition: 0.3s ease;
+}
+.main .secContent .singleDestination .imageDiv {
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+}
+.main .secContent .singleDestination .imageDiv img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 2s ease;
+}
+.main .secContent .singleDestination .imageDiv:hover img {
+  transform: scale(1.1);
+}
+.main .secContent .singleDestination .cardInfo {
+  padding: 1rem;
+}
+.main .secContent .singleDestination .cardInfo .destTitle {
+  color: var(--blackColor);
+  font-size: 1.25rem;
+}
+.main .secContent .singleDestination .cardInfo .content {
+  gap: 0.5rem;
+}
+.main .secContent .singleDestination .cardInfo .content .icon {
+  color: var(--textColor);
+  font-size: 18px;
+}
+.main .secContent .singleDestination .cardInfo .content .name {
+  color: var(--textColor);
+  font-weight: 400;
+  font-size: 14px;
+}
+.main .secContent .singleDestination .cardInfo .fee {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-top: 1.5px solid var(--greyText);
+  border-bottom: 1.5px solid var(--greyText);
 }/*# sourceMappingURL=main.css.map */
