@@ -1,4 +1,4 @@
-import React from 'react'
+import {React , useEffect} from 'react'
 import './home.css'
 import ocean from '../../assets/ocean.mp4'
 import { GrLocation } from "react-icons/gr";
@@ -8,9 +8,15 @@ import { FiFacebook } from "react-icons/fi";
 import { BsListTask } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 import Main from '../../components/Main/Main'
 export default function Home() {
 
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, [])
 
 
   return (
@@ -21,15 +27,15 @@ export default function Home() {
 
       <div className="homeContent container">
         <div className="textDiv">
-          <span className="smallText">
+          <span data-aos='fade-up' className="smallText">
             Our packages
           </span>
-          <h1 className="homeTitle">
+          <h1 data-aos='fade-up'className="homeTitle">
             Srearch your Holiday
           </h1>
         </div>
 
-        <div className="cardDiv grid">
+        <div data-aos='fade-up' className="cardDiv grid">
 
           <div className="destinationInput">
             <label htmlFor="city"> Search your destination:</label>
@@ -65,7 +71,7 @@ export default function Home() {
 
         </div>
 
-        <div className="homeFooterIcons flex">
+        <div data-aos='fade-up' className="homeFooterIcons flex">
           <div className="rightIcons">
             <FiFacebook className='icon' />
             <FaInstagram className='icon' />
