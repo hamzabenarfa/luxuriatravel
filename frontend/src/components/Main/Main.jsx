@@ -17,7 +17,7 @@ function Main() {
   return (
 <section className='main container section'>
 <div className="secTitle">
-  <h3 className="title">
+  <h3 className="title" data-aos='fade-right'>
     Most Visited destinations 
   </h3>
 </div>

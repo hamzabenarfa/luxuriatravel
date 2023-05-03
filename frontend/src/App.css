@@ -19,6 +19,9 @@
     --bodyColor:rgb(240,240,246);
     --cardBG:rgb(255,255,235);
 }
+html{
+    scroll-behavior: smooth;
+}
 
 Link, a{
     text-decoration: none;
@@ -81,3 +84,27 @@ input{
 body{
     background: var(--bodyColor);
 }
+
+/* media querry */
+
+@media screen and (min-width: 1024px){
+    .container{
+        width: 80% !important; 
+        margin: auto !important;
+        
+    }
+    .section{
+        padding: 6rem 0 4rem;    
+
+    }
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        zoom:1.1;
+    }
+}
+    
+    
+
+
