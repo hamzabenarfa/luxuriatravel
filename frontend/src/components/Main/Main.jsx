@@ -1,12 +1,18 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { AiOutlineCheckSquare } from "react-icons/ai";
 import useFetch from '../../hooks/useFetch';
 import './main.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 function Main() {
   const url = process.env.REACT_APP_URL;
   const { data } = useFetch(`${url}/destination`);
-  console.log(data)
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, [])
 
   return (
 <section className='main container section'>
@@ -20,7 +26,7 @@ function Main() {
 
 { data ?( 
       data.map((item) => (
-     <div  key={item.id} className='singleDestination'>
+     <div data-aos='fade-up' key={item.id} className='singleDestination'>
       
         <div className="imageDiv">
             <img src={item.imgSrc} alt={"image de : "+item.destTitle} />
