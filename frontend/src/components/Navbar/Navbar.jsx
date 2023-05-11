@@ -39,7 +39,7 @@ export default function Navbar() {
                   <Link to='/' className="navLink">Tour</Link>
                 </li>
                 <button className='btn'>
-                  <Link to='/'>LogIn</Link>
+                  <Link to='/login'>LogIn</Link>
                 </button>
               </ul>
               <div className='closeNavbar' onClick={(removeNavbar)}>
