@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Login from "./pages/Login/Login";
+import Admin from './pages/Admin/Admin';
   const Layout = () => {
   return (
     <div className="app">
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path:"/login", element: <Login /> },
-
+      {path:'/admin',element:<Admin />}
     ],
   },
 ]);

@@ -1,0 +1,193 @@
+:root {
+  --primaryColor: hsl(94, 55%, 56%);
+  --hoverColor: hsl(93, 75%, 76%);
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 75%);
+  --bgColor: hsl(113, 11%, 85%);
+  --inputColor: hsl(330, 12%, 97%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --hlFontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.btn2 {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  color: var(--greyText);
+}
+
+.btn2 .icon {
+  margin-left: 0.5rem;
+}
+
+.btn2:hover {
+  color: var(--PrimaryColor);
+  background: var(--paleGreen);
+}
+
+.loginPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 7px 50px rgb(214, 223, 213);
+}
+.loginPage .container-login {
+  height: 75vh;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+  border-radius: 10px;
+  background: hsl(0, 0%, 91%);
+}
+.loginPage .container-login .videoDivAdmin {
+  position: relative;
+  display: flex;
+  flex-basis: 50%;
+  width: 70%;
+  height: 100%;
+  padding: 0 1.5rem;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.loginPage .container-login .videoDivAdmin video,
+.loginPage .container-login .videoDivAdmin .footerDiv {
+  position: absolute;
+}
+.loginPage .container-login .videoDivAdmin video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.loginPage .container-login .videoDivAdmin .textDiv {
+  position: relative;
+}
+.loginPage .container-login .videoDivAdmin .textDiv .title {
+  color: var(--whiteColor);
+  font-size: 35px;
+  font-weight: 800;
+}
+.loginPage .container-login .videoDivAdmin .textDiv p {
+  color: var(--whiteColor);
+  padding: 1rem;
+  font-weight: 400;
+}
+.loginPage .container-login .videoDivAdmin .footerDiv {
+  bottom: 10px;
+  padding: 0 1rem;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.248);
+  left: 10px;
+  right: 10px;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  border-radius: 10px;
+}
+.loginPage .container-login .videoDivAdmin .text {
+  color: var(--primaryColor);
+}
+.loginPage .container-login .videoDivAdmin .btn2,
+.loginPage .container-login .videoDivAdmin Link {
+  background: var(--whiteColor);
+  color: var(--primaryColor);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+.loginPage .container-login .videoDivAdmin .btn2:hover,
+.loginPage .container-login .videoDivAdmin Link:hover {
+  background: var(--hoverColor);
+  color: var(--blackColor);
+}
+.loginPage .container-login .formDiv {
+  flex-basis: 50%;
+  margin: auto;
+  flex-direction: column;
+  gap: 1.5rem;
+  transform: translateY(-1rem);
+}
+.loginPage .container-login .formDiv .headerDiv {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.loginPage .container-login .formDiv .headerDiv img {
+  width: 60px;
+  padding-bottom: 0.5rem;
+}
+.loginPage .container-login .formDiv .headerDiv h3 {
+  font-size: 25px;
+  color: var(--blackColor);
+  font-weight: 600;
+}
+.loginPage .container-login .formDiv .form {
+  gap: 1rem;
+}
+.loginPage .container-login .formDiv .form .inputDiv .icon {
+  color: var(--greyText);
+}
+.loginPage .container-login .formDiv .form .inputDiv input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 200px;
+}
+.loginPage .container-login .formDiv .form .inputDiv label {
+  color: var(--blackColor);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0.5rem 0;
+  display: block;
+}
+.loginPage .container-login .formDiv .form .inputDiv .input {
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--inputColor);
+  border-radius: 10px;
+}
+.loginPage .container-login .formDiv .form .btn2 {
+  padding: 0.8rem;
+  background: var(--primaryColor);
+  border-radius: 10px;
+  color: var(--whiteColor);
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  font-size: 16px;
+  width: 100%;
+  gap: 0.5rem;
+  transition: 0.3s ease;
+}
+.loginPage .container-login .formDiv .form .btn2 .icon {
+  font-size: 25px;
+  transition: 0.3s ease;
+}
+.loginPage .container-login .formDiv .form .btn2:hover {
+  background: var(--hoverColor);
+  color: var(--blackColor);
+}
+.loginPage .container-login .formDiv .form .btn2:hover .icon {
+  color: var(--blackColor);
+  transition: 0.3s ease;
+}/*# sourceMappingURL=login.css.map */
