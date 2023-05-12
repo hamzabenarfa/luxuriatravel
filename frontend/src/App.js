@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Login from "./pages/Login/Login";
 import Admin from './pages/Admin/Admin';
+import Register from './pages/Register/Register';
   const Layout = () => {
   return (
     <div className="app">
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path:"/login", element: <Login /> },
-      {path:'/admin',element:<Admin />}
+      {path:'/admin',element:<Admin />},
+      {path:'/register',element:<Register />}
     ],
   },
 ]);

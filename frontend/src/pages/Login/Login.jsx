@@ -13,8 +13,8 @@ export default function Login() {
         <div className="videoDivAdmin">
           <video src={green} autoPlay muted loop typeof='video/mp4' ></video>
           <div className="textDiv">
-            <h2 className="title">create accept remove destination</h2>
-            <p>Adopt the peace of nature</p>
+          <h2 className="title">Explore the World with Us</h2>
+          <p>Dream Destinations</p>
           </div>
           <div className="footerDiv flex">
           <span className="text">dont you have an acount?</span>
@@ -33,9 +33,9 @@ export default function Login() {
           </div>
           <form action="" className="form grid">
 
-            <span>Login Status will go here</span>
+            {/* <span className='showMessage'>Login Status will go here</span> */}
             <div className="inputDiv">
-              <label htmlFor="username">username</label>
+              <label htmlFor="username">Username</label>
               <div className="input flex">
                 <FaUserShield className="icon" />
                 <input type="text" className="username" placeholder='Enter Username' />
@@ -43,7 +43,7 @@ export default function Login() {
             </div>
 
             <div className="inputDiv">
-              <label htmlFor="password">password</label>
+              <label htmlFor="password">Password</label>
               <div className="input flex">
                 <BsShieldLockFill className="icon" />
                 <input type="password" className="password" placeholder='Enter password' />

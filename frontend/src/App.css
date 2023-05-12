@@ -90,18 +90,7 @@ input{
 body{
     background: var(--bodyColor);
 }
-/* for dashboard admin*/
-.message{
-    display: none;
-}
 
-.showMessage{
-    display: block;
-    color:var(--whiteColor);
-    background: rgb(255,0,0);
-    border-radius: 3px;
-    text-align: center;
-}
 
 /* media querry */
 

@@ -18,6 +18,18 @@
     --smallFontSize: 0.813rem;
     --smallestFontSize: 0.75rem;
 }
+.message{
+    display: none;
+}
+
+.showMessage{
+    display: block;
+    color:var(--whiteColor);
+    padding: 10px;
+    background: rgb(255,0,0);
+    border-radius: 3px;
+    text-align: center;
+}
 .btn2 {
     border: none;
     outline: none;
@@ -35,14 +47,14 @@
     background: var(--paleGreen);
 }
 
-.loginPage {
+.loginPage ,.registerPage{
     height: 100vh;
     width: 100%;
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 7px 50px rgb(214, 223, 213);
-    .container-login {
+    .container-login,.container-register {
         height: 75vh;
         width: 60%;
         margin: auto;
@@ -50,7 +62,7 @@
         border-radius: 10px;
         background: hsl(0, 0%, 91%);
 
-        .videoDivAdmin {
+        .videoDivAdmin ,.videoDivRegister{
             position: relative;
             display: flex;
             flex-basis: 50%;
@@ -196,7 +208,79 @@
                     }
 
                 }
+                .forgotPassword{
+                    font-size: 13px;
+                    color:var(--blackColor);
+                    opacity: .7;
+                    text-align: center;
+                    
+                    a{
+                        text-decoration: underline;
+                        cursor: pointer;
+                        opacity: 1;
+                    }
+                }
             }
         }
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .loginPage ,.registerPage {
+            .container-login , .container-register{
+                height: 100%;
+                width: 100%;
+                flex-direction: column;
+                padding: 1.5rem;    
+                .videoDivAdmin , .videoDivRegister{
+                    width: 100%;
+                    .textDiv{
+                        .title{
+                            font-size: 25px;
+                        }
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                    .footerDiv{
+                        .text{
+                            font-size: 12px;
+                        }    
+                        .btn2{
+                         padding: .4rem 1.5rem;
+                        }
+                    }
+                }
+                .formDiv{
+                    gap:1rem;
+                    transform: translateY(-.5rem);
+                }
+                .headerDiv{
+                    padding: 1rem 0;
+                    img{
+                        width: 40px;
+                    }
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+                .form{
+                    gap:.5rem;
+                    .inputDiv{
+                        .icon{
+                            font-size: 20px;
+                        }
+                        input{
+                            width: 100%;
+                        }
+                        label{
+                            font-size: 12px;
+                        }
+                        .input{
+                            padding: .5rem;
+                        }
+                    }
+                }
+            }
     }
 }
