@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 
 function Main() {
   const url = process.env.REACT_APP_URL;
-  const { data } = useFetch(`${url}/destination`);
+  const { data } = useFetch(`${url}`);
 
   useEffect(() => {
     Aos.init({duration: 2000});
