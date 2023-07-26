@@ -7,9 +7,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function Main() {
-  const url = process.env.REACT_APP_URL;
-  const { data } = useFetch(`${url}`);
+  //const url = process.env.REACT_APP_URL;
+  //const { data } = useFetch(`${url}`);
 
+  const {data} = useFetch("https://lux-nodejs-back.vercel.app/");
   useEffect(() => {
     Aos.init({duration: 2000});
   }, [])
